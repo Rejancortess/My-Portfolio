@@ -1,7 +1,12 @@
 import React from "react";
+import { Hero } from "../ui/Hero";
 
-function Main() {
-  return <div>Main</div>;
-}
+const Main = () => {
+  return (
+    <main className="py-10 px-40">
+      <Hero />
+    </main>
+  );
+};
 
 export default Main;
