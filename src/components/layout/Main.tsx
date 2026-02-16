@@ -1,4 +1,3 @@
-import React from "react";
 import { Hero } from "../ui/Hero";
 
 const Main = () => {
