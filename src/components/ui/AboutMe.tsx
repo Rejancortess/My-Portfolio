@@ -2,7 +2,7 @@ import profile3 from "../../assets/profile-3.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="bg-slate-900 mt-20 px-40 py-20">
+    <div id="about" className="bg-slate-900 mt-20 px-40 py-20">
       <div className="flex justify-center items-center text-gray-300 ">
         <p className="bg-gray-600 py-1 px-4 rounded-2xl">About Me</p>
       </div>
@@ -17,7 +17,7 @@ const AboutMe = () => {
             <div className="absolute -left-11 -bottom-11 h-110 w-90 border-35 border-slate-600 border-r-0 border-t-0 z-20" />
           </div>
         </div>
-        <div className=" w-1/2 ">
+        <div className=" w-1/2 pl-2">
           <h2 className="text-white text-3xl font-semibold mb-5">
             Curious about me? Here you have it:
           </h2>
@@ -28,21 +28,22 @@ const AboutMe = () => {
             life. User experience, pixel perfect design, and writing clear,
             readable, highly performant code matters to me.
             <br />
-            <br />I began my journey as a web developer in 2025, and since then,
-            I've continued to grow and evolve as a developer, taking on new
-            challenges and learning the latest technologies along the way. Now,
-            in my early thirties, 7 years after starting my web development
-            journey, I'm building cutting-edge web applications using modern
-            technologies such as Next.js, TypeScript, Nestjs, Tailwindcss,
-            Supabase and much more.
+            <br />I started my journey as a web developer in 2025, driven by
+            curiosity and a strong desire to build things for the web. Since
+            then, I’ve been continuously improving my skills, exploring modern
+            technologies, and challenging myself with real-world projects.
+            Today, I focus on building responsive and scalable web applications
+            using tools like Next.js, TypeScript, Tailwind CSS, Supabase, and
+            other modern technologies. I’m passionate about writing clean,
+            maintainable code and constantly learning to become a better
+            developer every day.
             <br />
-            <br />I am very much a progressive thinker and enjoy working on
-            products end to end, from ideation all the way to development. When
-            I'm not in full-on developer mode, you can find me hovering around
-            on twitter or on indie hacker, witnessing the journey of early
-            startups or enjoying some free time. You can follow me on Twitter
-            where I share tech-related bites and build in public, or you can
-            follow me on GitHub.
+            <br />
+            I enjoy building products end to end from idea to deployment. I love
+            turning concepts into real, functional experiences and constantly
+            improving my craft. Outside of coding, I follow startup journeys and
+            share what I’m learning. You can connect with me on Facebook or
+            check out my work on GitHub.
             <br />
             <br />
             Finally, some quick bits about me.
