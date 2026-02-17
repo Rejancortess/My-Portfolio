@@ -1,6 +1,7 @@
 import Hero from "../ui/Hero";
 import AboutMe from "../ui/AboutMe";
 import Skills from "../ui/Skills";
+import Experience from "../ui/Experience";
 
 const Main = () => {
   return (
@@ -8,6 +9,7 @@ const Main = () => {
       <Hero />
       <AboutMe />
       <Skills />
+      <Experience />
     </main>
   );
 };
