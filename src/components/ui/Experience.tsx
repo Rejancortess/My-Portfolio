@@ -1,4 +1,4 @@
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard from "./cards/ExperienceCard";
 import Scrimba from "../../assets/scrimba.jpg";
 import antimonyLogo from "../../assets/antimony-logo.jpg";
 import GoogleDevLogo from "../../assets/Google.jpg";
