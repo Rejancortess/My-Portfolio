@@ -1,9 +1,9 @@
 import profile2 from "../../assets/profile-2.jpeg";
 import { MapPin, Github, Figma, Facebook } from "lucide-react";
 
-export const Hero = () => {
+const Hero = () => {
   return (
-    <div className="flex py-5 justify-between">
+    <div className="flex py-5 justify-between px-40">
       <div className="text-gray-300 w-2/3 pr-10">
         <h1 className="text-white text-5xl font-bold mb-5 ">
           Hi, I'm Rejan 👋
@@ -11,9 +11,7 @@ export const Hero = () => {
         <p>
           I'm a full stack developer (React.js & Node.js) with a focus on
           creating (and occasionally designing) exceptional digital experiences
-          that are fast, accessible, visually appealing, and responsive. Even
-          though I have been creating web applications for over 7 years, I still
-          love it as if it was something new.
+          that are fast, accessible, visually appealing, and responsive.
         </p>
         <div className="space-y-2 mt-10">
           <div className="flex items-center">
@@ -53,7 +51,7 @@ export const Hero = () => {
       </div>
       <div className="flex items-center justify-center w-1/3">
         <div className="relative w-70">
-          <div className="absolute -right-10 -bottom-10 h-65 w-65 border-28 border-slate-700 border-l-0 border-t-0" />
+          <div className="absolute -right-11 -bottom-11 h-65 w-65 border-35 border-slate-600 border-l-0 border-t-0" />
           <img
             src={profile2}
             alt="Rejan"
@@ -64,3 +62,5 @@ export const Hero = () => {
     </div>
   );
 };
+
+export default Hero;

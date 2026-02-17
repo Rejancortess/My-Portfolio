@@ -1,9 +1,13 @@
-import { Hero } from "../ui/Hero";
+import Hero from "../ui/Hero";
+import AboutMe from "../ui/AboutMe";
+import Skills from "../ui/Skills";
 
 const Main = () => {
   return (
-    <main className="py-10 px-40">
+    <main className="py-10">
       <Hero />
+      <AboutMe />
+      <Skills />
     </main>
   );
 };
