@@ -11,13 +11,13 @@ const ProjectsCard = ({ imageLeft = true }: { imageLeft?: boolean }) => {
     "Express.js",
     "MongoDB",
   ];
-  
+
   const imageSection = (
     <div className="w-1/2 bg-gray-600 flex items-center justify-center p-10">
       <img
         src={password}
         alt="Password Generator"
-        className="w-130 rounded-lg hover:scale-105 transition-transform"
+        className="w-130 rounded-lg hover:scale-110 transition-all duration-300 ease-out cursor-pointer"
       />
     </div>
   );
@@ -27,8 +27,8 @@ const ProjectsCard = ({ imageLeft = true }: { imageLeft?: boolean }) => {
       <p className="mb-7 text-lg">Password Generator</p>
       <p className="font-extralight">
         Built a responsive Password Generator using HTML, CSS, and JavaScript
-        that creates secure, customizable passwords with options for length
-        and character types.
+        that creates secure, customizable passwords with options for length and
+        character types.
       </p>
       <div className="mt-7 flex flex-wrap gap-3">
         {techStack.map((tech, index) => (
